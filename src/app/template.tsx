@@ -8,10 +8,10 @@ export default function Template({ children }: { children: React.ReactNode }) {
     animatePageIn()
   }, [])
   return (
-    <div className="z-[200001]">
+    <div>
       <div
         id="banner-1"
-        className="fixed left-0 top-0 z-10 flex min-h-screen w-1/4 items-center justify-center bg-yellow-primary shadow-button shadow-background"
+        className="fixed left-0 top-0 z-50 flex min-h-screen w-1/4 items-center justify-center bg-yellow-primary shadow-button shadow-background"
       >
         <div className="flex flex-col">
           <h1 className="text-center text-xl font-bold text-black-primary md:text-3xl">
@@ -22,7 +22,7 @@ export default function Template({ children }: { children: React.ReactNode }) {
       </div>
       <div
         id="banner-2"
-        className="fixed left-1/4 top-0 z-10 flex min-h-screen w-1/4 items-center justify-center bg-yellow-primary shadow-button shadow-background"
+        className="fixed left-1/4 top-0 z-50 flex min-h-screen w-1/4 items-center justify-center bg-yellow-primary shadow-button shadow-background"
       >
         <div className="rounded-lg border-4 border-black-primary bg-white p-5 shadow-button shadow-black-primary md:p-10">
           <svg
@@ -36,7 +36,7 @@ export default function Template({ children }: { children: React.ReactNode }) {
       </div>
       <div
         id="banner-3"
-        className="fixed left-2/4 top-0 z-10 flex min-h-screen w-1/4 items-center justify-center bg-yellow-primary shadow-button shadow-background"
+        className="fixed left-2/4 top-0 z-50 flex min-h-screen w-1/4 items-center justify-center bg-yellow-primary shadow-button shadow-background"
       >
         <div className="flex flex-col">
           <h1 className="text-center text-xl font-bold text-black-primary md:text-3xl">
@@ -47,7 +47,7 @@ export default function Template({ children }: { children: React.ReactNode }) {
       </div>
       <div
         id="banner-4"
-        className="fixed left-3/4 top-0 z-10 flex min-h-screen w-1/4 items-center justify-center bg-yellow-primary shadow-button shadow-background"
+        className="fixed left-3/4 top-0 z-50 flex min-h-screen w-1/4 items-center justify-center bg-yellow-primary shadow-button shadow-background"
       >
         <div className="rounded-lg border-4 border-black-primary bg-white p-5 shadow-button shadow-black-primary md:p-10">
           <svg

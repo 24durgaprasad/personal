@@ -4,6 +4,7 @@ import Navbar from '@/components/Navbar'
 import { Settings } from '@/components/common/Settings'
 import { ThemeProvider } from '@/provider/themesProvider'
 import Tawk from '@/components/common/Tawk'
+import GithubStar from '@/components/common/GithubStar'
 
 export const metadata: Metadata = {
   title: 'Radifa | Portfolio',
@@ -28,6 +29,7 @@ export default function RootLayout({
           <main className="mb-10 p-5 md:p-8">{children}</main>
           {/* <Footer /> */}
           <Settings />
+          <GithubStar />
           {/* <Tawk /> */}
         </ThemeProvider>
       </body>
