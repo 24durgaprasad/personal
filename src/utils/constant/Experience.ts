@@ -1,4 +1,5 @@
 import { url } from 'inspector'
+import { title } from 'process'
 
 interface IExperience {
   title: string
@@ -8,6 +9,15 @@ interface IExperience {
   date: string
 }
 export const experience = [
+  {
+    title: 'Backend Developer',
+    company: 'Utama Web',
+    type: 'Work',
+    description:
+      'Developed a multi-branch Point of Sale (POS) system using Laravel, focusing on scalability, performance, and user-friendly functionality.',
+    date: 'August 2024 - December 2024',
+    url: 'https://utamaweb.com/',
+  },
   {
     title: 'Mobile Developer Cohort',
     company: 'Bangkit Academy',
