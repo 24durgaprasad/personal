@@ -7,8 +7,8 @@ import Tawk from '@/components/common/Tawk'
 import GithubStar from '@/components/common/GithubStar'
 
 export const metadata: Metadata = {
-  title: 'Radifa | Portfolio',
-  description: 'Radifa | Portfolio',
+  title: 'durgaprasadvulla | portfolio',
+  description: 'durgaprasadvulla | Portfolio',
 }
 
 export default function RootLayout({
