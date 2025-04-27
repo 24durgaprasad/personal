@@ -1,4 +1,5 @@
-export function ThemeButton({ theme }: { theme: string }) {
+export function ThemeButton({ theme }: { theme: string }) 
+   {
   return theme == 'dark' ? (
     <svg
       xmlns="http://www.w3.org/2000/svg"

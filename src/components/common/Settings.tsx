@@ -58,24 +58,22 @@ export function Settings() {
             </svg>
           </button>
         </SpeedDialHandler>
-        <SpeedDialContent>
+        <SpeedDialContent placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
           <SpeedDialAction
             onClick={() => {
               setTheme(theme == 'light' ? 'dark' : 'light')
-            }}
-            className="h-16 w-16 cursor-pointer rounded-full border-4 border-black-primary bg-yellow-primary duration-150 hover:bg-orange-primary md:right-16 md:block"
-          >
+            } }
+            className="h-16 w-16 cursor-pointer rounded-full border-4 border-black-primary bg-yellow-primary duration-150 hover:bg-orange-primary md:right-16 md:block" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}          >
             <ThemeButton theme={theme ? theme : 'light'} />
           </SpeedDialAction>
-          <SpeedDialAction className="h-16 w-16 cursor-pointer rounded-full border-4 border-black-primary bg-yellow-primary duration-150 hover:bg-orange-primary md:right-16 md:block">
+          <SpeedDialAction className="h-16 w-16 cursor-pointer rounded-full border-4 border-black-primary bg-yellow-primary duration-150 hover:bg-orange-primary md:right-16 md:block" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
             <AudioPlayer isPlaying={isPlaying} toggle={toggle} />
           </SpeedDialAction>
           <SpeedDialAction
             onClick={() => {
               setPetEnable(!petEnable)
-            }}
-            className="h-16 w-16 cursor-pointer rounded-full border-4 border-black-primary bg-yellow-primary duration-150 hover:bg-orange-primary md:right-16 md:block"
-          >
+            } }
+            className="h-16 w-16 cursor-pointer rounded-full border-4 border-black-primary bg-yellow-primary duration-150 hover:bg-orange-primary md:right-16 md:block" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}          >
             <ButtonPets isEnable={petEnable} />
           </SpeedDialAction>
         </SpeedDialContent>
