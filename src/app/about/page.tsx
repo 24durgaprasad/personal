@@ -108,7 +108,7 @@ export default function About() {
             </svg>
           </div>
           <Image
-            src={'/me.png'}
+            src={'/me.jpg'}
             alt="Picture of the author"
             width={1000}
             height={1000}
@@ -117,14 +117,14 @@ export default function About() {
         </div>
         <p className="mt-5 text-justify text-base text-secondary-text md:mt-0 lg:w-1/2 xl:text-lg">
           I am an undergraduate student majoring in{' '}
-          <b>Informatics Engineering</b> at STMIK Widya Cipta Dharma. I possess
+          <b>Electronics and Communication Engineering</b> at NSRIT. I possess
           a strong understanding of programming languages and web development,
           along with hands-on experience in <b>software development</b>{' '}
           projects. My current focus is on deepening my knowledge in the field
           of <b>web & android development</b>.
           <br />
           <br />I have hands-on experience with <b>ReactJS</b> and <b>NextJS</b>{' '}
-          for the frontend. and using <b>ExpressJS</b>, <b>AdonisJS</b> for
+          for the frontend. and using <b>ExpressJS</b>, <b>NodeJS</b> for
           backend development. im also currently learning about <b>Kotlin</b>{' '}
           for android development
         </p>

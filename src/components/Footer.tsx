@@ -13,7 +13,7 @@ export default function Footer() {
               alt="Flowbite Logo"
             /> */}
             <span className="self-center whitespace-nowrap text-2xl font-semibold text-white">
-              Muhammad Radifa
+              Durgaprasad vulla
             </span>
           </a>
           <ul className="mb-6 flex flex-wrap items-center text-sm font-medium text-gray-500 sm:mb-0">
@@ -36,7 +36,7 @@ export default function Footer() {
         </div>
         <hr className="my-6 border-gray-600 sm:mx-auto lg:my-8" />
         <span className="block text-sm text-primary-text sm:text-center">
-          © {new Date().getFullYear()} . By Muhammad Radifa 🚀.
+          © {new Date().getFullYear()} . Durgaprasad vulla 🚀.
         </span>
       </div>
     </footer>

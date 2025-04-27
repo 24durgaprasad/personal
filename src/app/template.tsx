@@ -17,7 +17,7 @@ export default function Template({ children }: { children: React.ReactNode }) {
           <h1 className="text-center text-xl font-bold text-black-primary md:text-3xl">
             Hello
           </h1>
-          <p className="text-center text-black-primary">Radifa.my.id</p>
+          <p className="text-center text-black-primary">Durgaprasad.my.id</p>
         </div>
       </div>
       <div
@@ -42,7 +42,7 @@ export default function Template({ children }: { children: React.ReactNode }) {
           <h1 className="text-center text-xl font-bold text-black-primary md:text-3xl">
             World
           </h1>
-          <p className="text-center text-black-primary">Radifa.my.id</p>
+          <p className="text-center text-black-primary">Durgaprasad.my.id</p>
         </div>
       </div>
       <div

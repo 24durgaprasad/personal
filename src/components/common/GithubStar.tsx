@@ -10,7 +10,7 @@ import AnimatedCounter from './AnimatedCounter'
 
 export default function GithubStar() {
   const { data, isLoading, error } = useSWR(
-    `https://api.github.com/repos/MuhammadRadifa/portfolio-v2`,
+    `https://api.github.com/https://github.com/24durgaprasad`,
     fetcher,
     { revalidateOnFocus: false, revalidateOnReconnect: false },
   )
@@ -22,7 +22,7 @@ export default function GithubStar() {
   ) : (
     <div className="fixed left-6 top-3 z-10 hidden cursor-pointer items-center space-x-5 md:flex">
       <a
-        href="https://github.com/MuhammadRadifa/portfolio-v2"
+        href="https://github.com/24durgaprasad"
         target="_blank"
         className="flex h-14 w-44 cursor-pointer flex-row rounded-lg border-4 border-black-primary bg-white shadow-image-card duration-150 md:right-16"
       >

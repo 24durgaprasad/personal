@@ -11,7 +11,7 @@ import {
 export const logoLinks = [
   {
     name: 'Github',
-    href: 'https://github.com/MuhammadRadifa',
+    href: 'https://github.com/24durgaprasad',
     icon: Github,
   },
   {
@@ -22,13 +22,13 @@ export const logoLinks = [
   },
   {
     name: 'Instagram',
-    href: 'https://www.instagram.com/radifa0_0/',
+    href: '',
     icon: Instagram,
     content: 'Radifa0_0',
   },
   {
     name: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/radifa/',
+    href: 'https://www.linkedin.com/in/durgaprasad-vulla-428b85231/',
     icon: LinkedIn,
   },
   {

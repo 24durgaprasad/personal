@@ -28,23 +28,6 @@ export const techIcons = [
     icons: BiLogoJavascript,
   },
   {
-    name: 'TypeScript',
-    icons: BiLogoTypescript,
-  },
-  {
-    name: 'Php',
-    icons: SiPhp,
-  },
-  {
-    name: 'Golang',
-    icons: BiLogoGoLang,
-  },
-  {
-    name: 'Kotlin',
-    icons: TbBrandKotlin,
-  },
-
-  {
     name: 'React',
     icons: BiLogoReact,
   },
@@ -53,16 +36,8 @@ export const techIcons = [
     icons: SiNextdotjs,
   },
   {
-    name: 'Laravel',
-    icons: SiLaravel,
-  },
-  {
     name: 'Express',
     icons: SiExpress,
-  },
-  {
-    name: 'AdonisJs',
-    icons: SiAdonisjs,
   },
   {
     name: 'NodeJS',
@@ -73,27 +48,7 @@ export const techIcons = [
     icons: SiTailwindcss,
   },
   {
-    name: 'Compose',
-    icons: SiJetpackcompose,
-  },
-  {
-    name: 'Framer',
-    icons: SiFramer,
-  },
-  {
-    name: 'Jest',
-    icons: SiJest,
-  },
-  {
     name: 'MongoDB',
     icons: SiMongodb,
-  },
-  {
-    name: 'MySQL',
-    icons: SiMysql,
-  },
-  {
-    name: 'PostgreSQL',
-    icons: BiLogoPostgresql,
   },
 ]

@@ -50,7 +50,7 @@ export default function Home() {
         className="flex flex-col items-center gap-3 text-black-primary  xl:mt-16 xl:items-start 2xl:mt-24"
       >
         <h1 id="scramble" className="text-3xl font-bold md:text-6xl"></h1>
-        <ScrambleText>Muhammad Radifa</ScrambleText>
+        <ScrambleText>Durgaprasad vulla</ScrambleText>
         <h2 className="text-xl font-bold dark:text-white md:text-4xl">
           Hi, Folks{' '}
           <span className="hidden w-12 md:inline-block">
@@ -77,9 +77,9 @@ export default function Home() {
           />
         </h2>
         <p className="max-w-lg text-center text-sm dark:text-white md:max-w-2xl md:text-left md:text-base">
-          I am a <b>Fullstack Developer</b> from Indonesia, I have a strong
+          I am a <b>Fullstack Developer</b> from India, I have a strong
           understanding of programming languages and have experience in{' '}
-          <b>Mobile And Web Developer</b> projects.
+          <b>Mern stack</b> projects.
         </p>
         <div className="flex gap-4">
           <a
